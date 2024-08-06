@@ -1,0 +1,31 @@
+.column{
+    height: 100px;
+    width: 25%;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    padding-top: 150px;
+    width: 500px;
+   
+    
+}
+.total{
+    display:flex ;
+    justify-content:center ;
+}
+#resetbtn{
+margin-top: 20px;
+height: 50px;
+width: 100px;
+background-color: aquamarine;
+cursor: pointer;
+font-weight: bold;
+}
